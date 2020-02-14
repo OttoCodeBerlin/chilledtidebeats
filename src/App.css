@@ -20,3 +20,11 @@
 .home-page {
   background-image: url('../src/images/sobaka-shchenok-fon-9.jpg');
 }
+
+.text-black {
+  color: black;
+}
+
+.smalltext {
+  font-size: calc(5px + 1vmin);
+}
