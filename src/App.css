@@ -28,3 +28,55 @@
 .smalltext {
   font-size: calc(5px + 1vmin);
 }
+
+.kab-img-container {
+  height: '30%';
+}
+
+.kab-text {
+  text-align: 'left';
+}
+
+.float-box {
+  position: relative;
+  top: 40px;
+  margin: 15px;
+  padding: 10px;
+  text-align: left;
+  max-width: 300px;
+  border: 2px solid black;
+}
+
+.float-box-center {
+  position: relative;
+  top: 40px;
+  margin: 15px;
+  padding: 10px;
+  max-width: 6000px;
+}
+
+.box-left {
+  float: left;
+}
+.box-right {
+  float: right;
+}
+
+hr {
+  display: block;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: black;
+}
+
+.prod-text {
+  max-width: 300px;
+  margin: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  float: left;
+}

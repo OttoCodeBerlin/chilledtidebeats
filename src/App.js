@@ -6,6 +6,8 @@ import Animals from './pages/Animals'
 import Impressum from './pages/Impressum'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Kuehlautomat from './pages/Kuehlautomat'
+import KuehlautomatFlex from './pages/KuehlautomatFlex'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/impressum" component={Impressum} />
           <Route path="/animals" component={Animals} />
+          <Route path="/kab" component={Kuehlautomat} />
+          <Route path="/kab-flex" component={KuehlautomatFlex} />
           {/* <Home /> */}
         </header>
         <Footer />
